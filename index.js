@@ -51,7 +51,7 @@ document.addEventListener("keydown",function(event){
 
 function grap(letter){
     var let=document.querySelector("."+letter);
-    let.addClass("pressed");
+    let.classList.add("pressed");
     setTimeout(function(){
         let.classList.remove("pressed");
 
